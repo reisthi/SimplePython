@@ -1,5 +1,5 @@
-wip = {'one': 1, 'two': 2}
-wip_two = {'one': 1, 'two': 2}
+dict_one = {'one': 1, 'two': 2}
+dict_two = {'three': 3, 'four': 4}
 
 
 def display_dict(wip):
@@ -17,11 +17,21 @@ def dict_values(wip):
 def dict_update(wip):
     """ Adds a dictionary to the current dictionary. """
     # name_of_the_dict_one.updates(name_of_dict_2)
-    return wip.updates(wip_two)
+    return wip.updates(dict_two)
 
 
-def merge_merges(dict_one, dict_two):
-    """ Simple way to marge two dictionaries in python 3"""
+def merge_merges(wip, wip_two):
+    """ Simple way to marge two dictionaries in python 3. """
     # ** is the magic, details on the brackets
-    return {**dict_one, **dict_two}
+    return {**wip, **wip_two}
 
+
+def dict_copy(wip):
+    """ Returns a shallow copy of a dictionary. """
+    copy_of_dict = wip.copy()
+    return copy_of_dict
+
+
+def dict_clear(wip):
+    """ Deletes all key-values of a dictionary. """
+    return wip.clear()
