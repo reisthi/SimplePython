@@ -1,11 +1,27 @@
-def merge_dictionaries(d1, d2):
+wip = {'one': 1, 'two': 2}
+wip_two = {'one': 1, 'two': 2}
+
+
+def display_dict(wip):
+    """ Returns all the items of a dictionary. """
+    # name_of_the_dict.items()
+    return wip.items()
+
+
+def dict_values(wip):
+    """ Get the values of a dictionary. """
+    # name_of_the_dict.values()
+    return wip.values()
+
+
+def dict_update(wip):
+    """ Adds a dictionary to the current dictionary. """
+    # name_of_the_dict_one.updates(name_of_dict_2)
+    return wip.updates(wip_two)
+
+
+def merge_merges(dict_one, dict_two):
     """ Simple way to marge two dictionaries in python 3"""
-    merged = {**d1, **d2}
-    print(merged)
-    return merged
+    # ** is the magic, details on the brackets
+    return {**dict_one, **dict_two}
 
-
-dictionary1 = {'key1': 0}
-dictionary2 = {'key2': 'another value'}
-
-merge_dictionaries(dictionary1, dictionary2)
