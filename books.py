@@ -1,6 +1,6 @@
 """ Algorithm to calculate how much time it will take to read a book."""
 
-BOOK_PAGES = 262
+BOOK_PAGES = 283
 
 reading_times = {
     'first_try':    2.1098,

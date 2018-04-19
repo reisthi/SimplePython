@@ -1,4 +1,3 @@
-
 def another_test(required, *args, **kwargs):
     """ Simple test for all objects """
 
