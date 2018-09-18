@@ -27,4 +27,4 @@ class ClassTwo:
     def __repr__(self):
         return (f'{self.__class__.__name__}(',
                 f'{self.foo!r}, {self.bar!r}')
-    # this will also return the name of the class without worring if it ever changes
+    # this will also return the name of the class without worrying if it ever changes
