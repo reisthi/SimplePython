@@ -1,5 +1,6 @@
 dict_one = {'one': 1, 'two': 2}
 dict_two = {'three': 3, 'four': 4}
+dict_three = {'a': 4, 'c': 2, 'b': 4, 'd': 1}
 
 
 def display_dict(wip):
@@ -35,3 +36,28 @@ def dict_copy(wip):
 def dict_clear(wip):
     """ Deletes all key-values of a dictionary. """
     return wip.clear()
+
+
+def sort_dict(wip):
+    """ Returns a sorted dictionary. """
+    return sorted(wip.items())  # ('a', 4), ('b', 4), ('c', 2), ('d', 1)]
+
+
+def sort_dict_keys(wip):
+    """ Returns sorted dictionary keys. """
+    return sorted(wip.keys())
+
+
+def sort_dict_values(wip):
+    """ Returns sorted dictionary keys. """
+    return sorted(wip.values())
+
+
+def sort_dict_custom(wip):
+    """ Returns sorted dict by index"""
+    return sorted(wip.items(), key=lambda x: x[1])
+
+
+def sort_reversed(wip):
+    """ Returns a reversed sorted dictionary. """
+    return sorted(wip.items(), key=lambda x: x[0], reverse=True)
