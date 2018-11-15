@@ -1,0 +1,9 @@
+{
+  "files.autoSave": "onWindowChange",
+  "python.pythonPath": "/Users/thiagoreis/.virtualenvs/simpe-python/bin/python3.6",
+  "python.autoComplete.extraPaths": [
+    "/Users/thiagoreis/.virtualenvs/simple-python/lib/python3.6/site-packages"
+  ],
+  "python.venvFolders": ["envs", ".pyenv", ".direnv", ".virtualenvs"],
+  "python.linting.pylintEnabled": false
+}

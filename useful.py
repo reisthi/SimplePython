@@ -2,6 +2,7 @@
 This file has functions that can be used on the daily basis.
 """
 
+
 def delete_duplicates(model_name):
     """This function deletes duplicates from a model on the database.
         It takes a ModelName as argument.
